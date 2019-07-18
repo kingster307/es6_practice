@@ -15,3 +15,50 @@ At an end-of-year meeting, your boss wants a final report with the following:
 
 All the report data should be printed to the console.
 
+------------------------------
+
+## project planning 
+
+# data models / constructors 
+---------------
+name: super constructor 
+--------------------
+name 
+buildYear
+
+name: parks ---- 3 parks
+---------------
+size 
+number of trees
+
+
+## methods 
+-------------
+treeDensity 
+    number of trees/park area
+
+averageParkAge
+    sum of all ages/number of parks
+
+thousandTrees
+    name of the park that has more than 1000 trees
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+# data models / constructors 
+------------------
+streets ---- 4 streets
+------------------
+sizeClassification
+    default is normal 
+
+## methods 
+-------------
+averageParkStreet
+    sum of all street lengths / num of streets
+
+set Street Classification 
+    tiny/small/normal/big/huge
+        default is normal
