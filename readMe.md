@@ -23,25 +23,25 @@ All the report data should be printed to the console.
 ---------------
 name: super constructor 
 --------------------
-name 
-buildYear
+* name 
+* buildYear
 
 name: parks ---- 3 parks
 ---------------
-size 
-number of trees
+* size 
+* number of trees
 
 
 ## methods 
 -------------
-treeDensity 
-    number of trees/park area
+* treeDensity 
+    * number of trees/park area
 
-averageParkAge
-    sum of all ages/number of parks
+* averageParkAge
+    * sum of all ages/number of parks
 
-thousandTrees
-    name of the park that has more than 1000 trees
+* thousandTrees
+    * name of the park that has more than 1000 trees
 
 
 -----------------------------------------------------------------------------------------------------------
@@ -51,14 +51,14 @@ thousandTrees
 ------------------
 streets ---- 4 streets
 ------------------
-sizeClassification
-    default is normal 
+* sizeClassification
+    * default is normal 
 
 ## methods 
 -------------
-averageParkStreet
-    sum of all street lengths / num of streets
+* averageParkStreet
+    * sum of all street lengths / num of streets
 
-set Street Classification 
-    tiny/small/normal/big/huge
-        default is normal
+* set Street Classification 
+    * tiny/small/normal/big/huge
+        * default is normal
