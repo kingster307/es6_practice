@@ -36,12 +36,14 @@ name: parks ---- 3 parks
 -------------
 * treeDensity 
     * number of trees/park area
+      * for each park
 
 * averageParkAge
     * sum of all ages/number of parks
+      * for each park
 
 * thousandTrees
-    * name of the park that has more than 1000 trees
+    * name of the parks that have more than 1000 trees
 
 
 -----------------------------------------------------------------------------------------------------------
@@ -56,8 +58,9 @@ streets ---- 4 streets
 
 ## methods 
 -------------
-* averageParkStreet
+* averageParkStreet & total
     * sum of all street lengths / num of streets
+      
 
 * set Street Classification 
     * tiny/small/normal/big/huge
