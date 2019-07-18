@@ -3,7 +3,6 @@ class SuperConstructor {
         this.name = name;
         this.yearBuilt = yearBuilt;
     }
-
 }
 
 class Park extends SuperConstructor {
@@ -44,7 +43,6 @@ class Street extends SuperConstructor {
     }
 
     // methods 
-
     calculateAverageStreetLength(length, totalLength) {
         // 4 streets 
         return Math.round((length + totalLength) / 4)
@@ -73,11 +71,7 @@ class Street extends SuperConstructor {
         return classifications.get(size); 
     
     }
-
-
-
 }
-
 
 //instances
 const allParks = [
@@ -93,13 +87,10 @@ const allStreets = [
     new Street('johns street', 2006, 1000, 1)
 ];
 
-
 function printReport() {
-
     //parks
     console.log("Parks Report");
     console.log("------------------------------------");
-
     allParks.forEach(el => {
         console.log("------------")
         console.log(`${el.name}:`);
@@ -110,7 +101,6 @@ function printReport() {
             console.log(`${el.name} has ${el.numberOfTrees} trees!`);
         }
     });
-
     //streets
     console.log("------------------------------------");
     console.log("Streets Report");
@@ -126,5 +116,4 @@ function printReport() {
     console.log(`Total Street Length ${allStreets[0].calculateTotalStreetLength()}`);
 
 }
-
 printReport();
